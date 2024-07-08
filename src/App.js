@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
-
+import Nav from "./components/Nav";
+import {HashRouter,Routes,Route} from "react-router-dom";
+import Register from "./components/Register";
+import Login from "./components/Login";
+import Quiz from "./components/Quiz";
+import Admin from "./components/Admin";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid  p-0" >
+        <HashRouter>
+        <Nav />
+        <Routes>
+          <Route path="/" element={<Register/>} />
+          <Route path="/register" element={<Register/>}/>
+          <Route path="/login" element={<Login/>} />
+          <Route path="/quiz/:id" element={<Quiz/>} />
+          <Route path="/admin" element={<Admin />}/>
+        </Routes>
+      </HashRouter>
     </div>
   );
 }

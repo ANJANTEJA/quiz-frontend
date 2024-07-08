@@ -1,0 +1,82 @@
+[
+    {
+        "title":"1. ReactJS is developed by _____?",
+        "options":["Google", "Facebook","Adobe","Microsoft"],
+        "answer":"B"
+    },
+    {
+        "title":"2. Which of the following are the advantages of React.js?",
+        "options":[
+            "React.js can increase the application's performance with Virtual DOM.",
+            "React.js is easy to integrate with other frameworks such as Angular, BackboneJS since it is only a view library.",
+            "React.js can render both on client and server side.",
+            "All of the above"
+          ],
+        "answer":"D"
+    },
+    {
+        "title":"3. What of the following is used in React.js to increase performance?",
+        "options":[
+            "Original DOM",
+            "Virtual DOM",
+            " Both A and B",
+            "None of the above."
+          ],
+        "answer":"B"
+    },
+    {
+        "title":"4. ReactJS is an MVC based framework?",
+        "options":["True", "False"],
+        "answer":"B"
+    },
+    {
+        "title":"5. Which of the following acts as the input of a class-based component?",
+        "options":["Class", "Factory", "Render", "Props"],
+        "answer":"D"
+    },
+    {
+        "title":"6. How many numbers of elements a valid react component can return?",
+        "options":[1, 2, 3, 4],
+        "answer":"A"
+    },
+    {
+        "title":"7. What are the two ways to handle data in React?",
+        "options":[
+            "State & Props",
+            "Services & Components",
+            "State & Services",
+            "State & Component"
+        ],
+        "answer":"A"
+    },
+    {
+        "title":"8. React.js is a free and open-source front-end _________ ?",
+        "options":[
+            "JavaScript library",
+            "Bootstrap library",
+            "CSS library",
+            "None of the Above"
+          ],
+        "answer":"A"
+    },
+    {
+        "title":"9. Javascript is an _______ language?",
+        "options":[
+            "Object-Oriented",
+            "Object-Based",
+            "Procedural",
+            "None of the above"
+          ],
+        "answer":"A"
+    },
+    {
+        "title":"10. React was originally created by _____ ?",
+        "options":[
+            "Jordan Walke",
+            "Rasmus Lerdorf",
+            "Miško Hevery",
+            "None of the above"
+        ],
+        "answer":"A"
+    }
+]
